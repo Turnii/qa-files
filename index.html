@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        body{
+            background-image: url("tiger.jpg");
+        }
+        #print {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+        }
+
+        #persona {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            box-shadow: 0 10px 20px 0 black;
+            border-radius: 10px;
+            margin: 15px;
+            opacity: 100;    
+            background-color: #00FF00 
+        }
+    </style>
+</head>
+<body>
+    <button onclick="llamarAPI()">Generar ficha</button>
+    <div id="print">
+    </div>
+</body>
+<script src="./demo.js"></script>
+</html> 
